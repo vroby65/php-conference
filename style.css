@@ -1,0 +1,50 @@
+/* style.css */
+
+:link,:visited {text-decoration:none}
+a img,:link img,:visited img {border:none}
+
+body {
+	font-family:arial, "lucida Grande", verdana, helvetica, sans-serif;
+	font-size: 14px;
+	background: #FFFFFF;
+	color:#222;
+	}
+input,textarea {
+	border: 1px solid #AAAAAA;
+	border-radius: 5px 5px 5px 5px;
+	margin-bottom: 10px;
+	background-color: #EEEEEE;
+	color: #444444;
+	font-weight:bold;
+	font-size: 14px;
+}
+
+button {	
+	background:#4444FF;
+	color: #FFFFFF;
+	border: 0px ;
+	border-radius: 6px 6px 6px 6px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	padding-right: 10px;
+	padding-left: 10px;
+	margin-left: 5px;
+	margin-right: 5px;	
+	font-weight:bold;
+	font-size: 14px;
+}
+
+        body {
+            margin: 0;
+        }
+        .videos {
+            height: 100%;
+            width: 100%;
+        }
+        #localVideo, #remoteVideo {
+            height: 100%;
+            max-height: 100%;
+            max-width: 100%;
+            object-fit: cover;
+            width: 100%;
+        }
